@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+.about {
+  padding-top: 3.5rem;
+}
+
+ul, li {
+  list-style-position:inside;
+  margin:0;
+  padding:0;
+}
+
+ul {
+  margin-bottom: 1em;
+}
+
+.board-link {
+  text-align: center;
+  margin: auto;
+}
