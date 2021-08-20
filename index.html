@@ -54,7 +54,12 @@
         <p class="lead">Sports Boosters is a non-profit organization.</p>
         <p class="lead">Your donation is tax deductible.</p>
         <p class="lead">Tax ID# 94-2578997</p>
-        <a class="btn btn-danger donate" href="#">Donate</a>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input name="cmd" type="hidden" value="_s-xclick">
+          <input name="hosted_button_id" type="hidden" value="LUA93X45W9GA4">
+    
+          <button type="submit" class="btn btn-danger donate">Donate</button>
+        </form>
       </div>
     </div>
   </div>
