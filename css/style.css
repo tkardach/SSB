@@ -24,7 +24,6 @@
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
-
 .home-banner {
   background-image: url("../images/backdrop.png");
   background-size: auto 100%;
@@ -34,6 +33,10 @@
 .backdrop {
   position: absolute;
   object-fit: cover;
+}
+
+.donate-container {
+  background-color: #4491a8;
 }
 
 .product-device::before {
@@ -74,6 +77,13 @@
   .visible-desktop{
     display: block !important;
   }
+}
+@media screen and (min-width: 1300px) {
+.home-banner {
+  background-image: url("../images/backdrop.png");
+  background-size: 110% auto;
+  min-height: 400px;
+}
 }
 
 .flex-equal > * {
